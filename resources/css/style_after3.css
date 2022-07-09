@@ -1,0 +1,301 @@
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+.container {
+  max-width: device-width;
+  margin: 0 auto;
+  width: 100%;
+}
+.main .container{
+  position: fixed;
+  z-index: 10;
+}
+.main .container li{
+  display: inline;
+  padding-right: 10px;
+}
+.container_supporting {
+  position: relative;
+       top: 100px;
+  padding-left: 50px;
+}
+.container_supporting h2{
+  font-family: 'Tiro Tamil', 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+  font-weight:bold;
+}
+.container_supporting p{
+  font-family:  'Abel', Georgia, Cochin, Arial sans-serif;
+  font-size: 22px;
+  font-weight:bold;
+  text-align:justify;
+}
+.description{
+  position: relative;
+        top: -250px;
+  text-align: left;
+  padding-left: 250px;
+}
+nav {
+  background-color: OrangeRed;
+  color: White;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+li{
+  display: inline;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  margin-right: 9px;
+}
+.rating {
+  background-color: OrangeRed;
+  height: 20rem;
+  width: device-width;
+  padding: 0 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+        top: -50px;
+  z-index: 11;
+  text-align: center;
+}
+.gallery img{
+  width: 30%;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  left: 35px;
+  float: left;
+  margin-right: 10px;
+        top: -30px;
+  border: 1px solid hsl(246, 100%, 28%);
+}
+.location {
+  text-align: center;
+  margin-bottom: 7rem;
+  overflow: hidden;
+  display: inline;
+  position: relative;
+        top: -10px;
+  left: 45px;
+}
+.location img {
+  width: 90%;
+  max-height: 100%;
+  height: auto;
+  border:1px dotted hsl(246, 100%, 28%);
+}
+.location h1{
+  font-size: medium;
+  display: block;
+  text-align: center;
+  float: center;
+  position: relative;
+  left: -70px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  line-height: 14px;
+}
+footer {
+  background-color: OrangeRed;
+  padding: 0 1rem;
+  position: relative;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5em 0;
+  color: white;
+}
+footer li {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  left: -150px;
+}
+@media only screen and (max-width: 480px) {
+  .container_supporting {
+    position: relative;
+    top: 30px;
+    align-items: center;
+    right: -60px;
+  }
+  .description{
+    position: relative;
+    top: -20px;
+    text-align: center;
+    align-items: center;
+    right: 350px;
+    min-width: 420px;
+  }
+  .rating {
+    background-color: OrangeRed;
+    height: 20rem;
+    width: device-width;
+    padding: 0 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+          top: -10px;
+    z-index: 11;
+    text-align: center;
+  }
+  .location {
+    text-align: center;
+    margin-bottom: 7rem;
+    overflow: hidden;
+    display: inline;
+    position: relative;
+          top: 30px;
+    left: 25px;
+  }
+.location h1{
+  font-size: medium;
+  display: block;
+  text-align: center;
+  float: center;
+  position: relative;
+  left: -40px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  line-height: 14px;
+  }
+  .gallery img{
+    width: 30%;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    left: 10px;
+    float: left;
+    margin-right: 10px;
+          top: 10px;
+    border: 1px solid hsl(246, 100%, 28%);
+  }
+  footer {
+    background-color: OrangeRed;
+    padding: 0 1rem;
+    position: relative;
+    position: relative;
+    top: 50px;
+  }
+  footer li {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    left: -70px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  .container_supporting {
+    position: relative;
+    top: 100px;
+    padding-left: 50px;
+  }
+  .description{
+    position: relative;
+    top: -250px;
+    text-align: left;
+    padding-left: 250px;
+  }
+  .location {
+    text-align: center;
+    margin-bottom: 7rem;
+    overflow: hidden;
+    display: inline;
+    position: relative;
+          top: -10px;
+    left: 45px;
+  }
+  .gallery img{
+    width: 30%;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    left: 35px;
+    float: left;
+    margin-right: 10px;
+          top: -30px;
+    border: 1px solid hsl(246, 100%, 28%);
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .container_supporting {
+    position: relative;
+    top: 100px;
+    padding-left: 50px;
+  }
+  .description{
+    position: relative;
+    top: -250px;
+    text-align: left;
+    padding-left: 250px;
+  }
+  .location {
+    text-align: center;
+    margin-bottom: 7rem;
+    overflow: hidden;
+    display: inline;
+    position: relative;
+          top: -10px;
+    left: 45px;
+  }
+  .gallery img{
+    width: 30%;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    left: 35px;
+    float: left;
+    margin-right: 10px;
+          top: -30px;
+    border: 1px solid hsl(246, 100%, 28%);
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+  .container_supporting {
+    position: relative;
+    top: 100px;
+    padding-left: 50px;
+  }
+  .description{
+    position: relative;
+    top: -250px;
+    text-align: left;
+    padding-left: 250px;
+  }
+  .location {
+    text-align: center;
+    margin-bottom: 7rem;
+    overflow: hidden;
+    display: inline;
+    position: relative;
+          top: -10px;
+    left: 45px;
+  }
+  .gallery img{
+    width: 30%;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    left: 35px;
+    float: left;
+    margin-right: 10px;
+          top: -30px;
+    border: 1px solid hsl(246, 100%, 28%);
+  }
+}
